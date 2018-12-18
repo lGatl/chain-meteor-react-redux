@@ -11,18 +11,18 @@ This technology use MongoDB, Npm & Meteor so you have to install this 3 packages
 
 You can clone or copy this project on [https://github.com/lGatl/gat-ui-react](https://github.com/lGatl/gat-ui-react).
 Go to the folder parent of your further project and
-	git clone
+	`git clone`
 Rename your project 
-	mv chain-meteor-react-redux your-project-name
+	`mv chain-meteor-react-redux your-project-name`
 Get in your project 
-	cd your-project-name
+	`cd your-project-name`
 reinit your project's git
-	rm -rf .git
-	git init
+	`rm -rf .git`
+	`git init`
 You have to install npm packages 
-	meteor npm install
+	`meteor npm install`
 Then it's a meteor Project, then you can run it. 
-	meteor run
+	`meteor run`
 
 ## Principle :
 
