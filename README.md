@@ -10,18 +10,31 @@ Furthermore This project propose a convention every were in the project. it will
 This technology use MongoDB, Npm & Meteor so you have to install this 3 packages before continue.
 
 You can clone or copy this project on [https://github.com/lGatl/gat-ui-react](https://github.com/lGatl/gat-ui-react).
+
 Go to the folder parent of your further project and
+
 	`git clone`
+
 Rename your project 
+
 	`mv chain-meteor-react-redux your-project-name`
+
 Get in your project 
+
 	`cd your-project-name`
+
 reinit your project's git
+
 	`rm -rf .git`
+
 	`git init`
+
 You have to install npm packages 
+
 	`meteor npm install`
+
 Then it's a meteor Project, then you can run it. 
+
 	`meteor run`
 
 ## Principle :
@@ -29,7 +42,7 @@ Then it's a meteor Project, then you can run it.
 Meteor, React and Redux are chained then for each collection you will need, put his name capitalized in the "imports/5_methodes/methodes" COLLECTIONS array. 
 You will automiticaly dispose of methods, actions and reducers already chained and named with all CMRR conventions. In fact methods, actions, reducers are automiticaly genereted for each strings in COLLECTIONS.
 
-For example : If you see COLLECTIONS = ["user", "article", "book"] 
+For example : If you see `COLLECTIONS = ["user", "article", "book"]`
 
 You know that you can get articles with getArticle that you can find ACTIONS.Article.get,it will call the Meteor Method getArticles and the result will be put in state.article.all . 
 
