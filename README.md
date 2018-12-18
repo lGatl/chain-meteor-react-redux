@@ -9,7 +9,7 @@ Furthermore This project propose a convention every were in the project. it will
 ## GetStarted :
 This technology use MongoDB, Npm & Meteor so you have to install this 3 packages before continue.
 
-You can clone or copy this project on [https://github.com/lGatl/gat-ui-react](https://github.com/lGatl/gat-ui-react).
+You can clone or copy this project on [https://github.com/lGatl/chain-meteor-react-redux](https://github.com/lGatl/chain-meteor-react-redux).
 
 Go to the folder parent of your further project and
 
@@ -50,7 +50,7 @@ You know that you can rm book with rmBook that you can find ACTIONS.Book.rm, it 
 You know that you can controle inputs with userControle that you can find ACTIONS.User.controle, and the result will be seen in state.user.controle. 
 
 ## Documentation :
- Documentation in progress at [lGatl.fr](http://lGatl.fr)
+ Documentation in progress at [lGatl.fr/chain-meteor-react-redux](http://lGatl.fr/chain-meteor-react-redux)
 
 ## Author :
 Adrien GATINOIS 
