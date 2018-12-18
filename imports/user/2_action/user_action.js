@@ -81,18 +81,17 @@ export function getActiveUser( cbk = ()=>{} ){
 			( err, res ) => {
 				if ( err ) {
 					console.log(err);
-					reject( err );
+					reject( null );
 				}else{
 					// console.log(res);
 					cbk(res);
 					resolve( res );
-
 				}
 			}
 		);
 	});
 	return {
-		type: 		CONSTANT_Users.GET_ACTIVE_USER,
+		type: CONSTANT_Users.GET_ACTIVE_USER,
 		payload: 	p
 	};
 }

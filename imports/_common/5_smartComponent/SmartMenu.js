@@ -23,27 +23,31 @@ class SmartMenu extends Component {
 		}
 	];}
 	//items object put at the Right
-	menusR(){return[
-		
-		{
-			title: 'Connexion',
-			url: '/connexion',
-			display:!(this.props.active_user)
-		},
-		{
-			title: 'Logout',
-			url: '/logout',
-			img: '/images/logout.png',
-			src: 'logout',
-			display:this.props.active_user,
-			style: {padding:0}
-		},
-		{
-			title: 'Delete My Account',
-			url: '/delete_account',
-			display:this.props.active_user,
-		}
-	];}
+	menusR(){
+		let {active_user} = this.props;
+		active_user = active_user && 
+			typeof(active_user) == 'object' && 
+			Object.keys(active_user).length>0?true:false;
+		return[
+			{
+				title: 'Connexion',
+				url: '/connexion',
+				display:!(active_user)
+			},
+			{
+				title: 'Logout',
+				url: '/logout',
+				img: '/images/logout.png',
+				src: 'logout',
+				display:active_user,
+				style: {padding:0}
+			},
+			{
+				title: 'Delete My Account',
+				url: '/delete_account',
+				display:active_user,
+			}
+		];}
 	//Controle Actions if user click on
 	activeMenu( title, url, e ){
 		e.preventDefault();

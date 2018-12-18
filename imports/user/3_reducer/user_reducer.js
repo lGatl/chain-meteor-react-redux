@@ -6,17 +6,11 @@ const DEFAULTS = {
 	one:{}
 };
 export const REDUCER_users_add = ( state , action ) =>{
-	var all = [ ...state.all ] ;
-	let prestataire_index;
-	let payeur_index;
-	let one;
-	let active_user;
 	switch ( action.type ) {
 	case CONSTANTS['Users'].GET_ACTIVE_USER:
-
 		return { ...state, active_user: action.payload  };
 	case CONSTANTS['Users'].LOG_IN:
-		break;
+		return { ...state};
 	case CONSTANTS['Users'].LOG_OUT:
 		return { ...state, active_user: null  };
 	}

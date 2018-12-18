@@ -13,7 +13,7 @@ You can clone or copy this project on [https://github.com/lGatl/gat-ui-react](ht
 
 Go to the folder parent of your further project and
 
-	git clone
+	git clone git@github.com:lGatl/chain-meteor-react-redux.git
 
 Rename your project 
 
