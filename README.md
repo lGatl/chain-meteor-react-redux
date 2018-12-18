@@ -19,7 +19,7 @@ Rename your project
 
 	mv chain-meteor-react-redux your-project-name
 
-Get in your project 
+Go in your project 
 
 	cd your-project-name
 
