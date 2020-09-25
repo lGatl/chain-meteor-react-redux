@@ -1,4 +1,5 @@
 # chain-meteor-react-redux
+You can see the last version of the chain-meteor-react-redux principle in the Devinamique project
 
 ## Description :
 chain-meteor-react-redux called CMRR is my boilerplate. 
